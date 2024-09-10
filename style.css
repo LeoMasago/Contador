@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.container{
+    background-color: rgb(110, 156, 156);
+    border-radius: 9px;
+    padding: 70px;
+    width: 300px;
+}
+.numero{
+    font-size: 100px;
+    text-align: center;
+}
+
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnResetar{
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(162, 40, 40);
+    transition: 1s;
+}
+
+.btnResetar:hover{
+    height: 70px;
+    color: aliceblue;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    height: 60px;
+    width: 110px;
+} 
+
+@media(max-width: 450px){
+    .container{
+        background-color: rgb(110, 156, 156);
+        border-radius: 9px;
+        padding: 100px;
+        height: 90px;
+        width: 100px;
+    }
+    .btn{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+    }
+    .numero{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media(min-width:450px) and (max-width: 1080px){
+    .container{
+        background-color: rgb(110, 156, 156);
+        border-radius: 9px;
+        padding: 3%;
+        height: 30%;
+        
+    }
+
+    .numero{
+        padding: 10px;
+        font-size: 60px;
+        text-align: center;
+    }
+}
